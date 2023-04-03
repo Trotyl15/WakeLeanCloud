@@ -3,7 +3,7 @@ name: AutoWakeUpLeanCLoud
 
 on: 
   schedule:
-    - cron: "*/18 10-23,0-3 * * *"
+    - cron: "*/5 10-23,0-3 * * *"
   release:
     types: [published]
   push:
